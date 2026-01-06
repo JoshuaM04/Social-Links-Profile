@@ -96,10 +96,93 @@
     .attribution a {
       color: hsl(75, 94%, 57%);
     }
+
+    /* MEDIA QUERIES FOR BREAKPOINTS */
+    @media (max-width: 1200px) {
+      .container {
+        max-width: 360px;
+        max-height: 590px;
+      }
+      li {
+        max-width: 95%;
+      }
+      h1 {
+        font-size: 1.3rem;
+      }
+      h2 {
+        font-size: .75rem;
+      }
+      p {
+        font-size: .75rem;
+      }
+      a {
+        font-size: .8rem;
+      }
+    }
+    @media (max-width: 992px) {
+      .container {
+        max-width: 340px;
+        max-height: 580px;
+      }
+      li {
+        max-width: 90%;
+      }
+      h1 {
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: .70rem;
+      }
+      p {
+        font-size: .70rem;
+      }
+      a {
+        font-size: .75rem;
+      }
+    }
+    @media (max-width: 768px) {
+      .container {
+        max-width: 320px;
+        max-height: 570px;
+      }
+      li {
+        max-width: 85%;
+      }
+      h1 {
+        font-size: 1.1rem;
+      }
+      h2 {
+        font-size: .65rem;
+      }
+      p {
+        font-size: .65rem;
+      }
+      a {
+        font-size: .7rem;
+      }
+    }
+    @media (max-width: 600px) {
+      .container {
+        max-width: 300px;
+        max-height: 560px;
+      }
+      li {
+        max-width: 80%;
+      }
+      h1 {
+        font-size: 1.0rem;
+      }
+      h2 {
+        font-size: .6rem;
+      }
+      a {
+        font-size: .65rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <main>
+  <main class="container">
     <img class="avatar" src="assets/images/avatar-jessica.jpeg" />
     <h1>Jessica Randall</h1>
     <h2>London, United Kingdom</h2>
@@ -115,8 +198,10 @@
   </main>
   
   <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Joshua Martinez</a>.
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Joshua Martinez</a>.
+    </p>
   </footer>
 </body>
 </html>
